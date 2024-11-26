@@ -1,0 +1,207 @@
+body {
+  background-image: url("../FinanceManagement/background\ \(2\).jpg");
+}
+
+/* Global Styles for Centering */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense-list-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  font-size: 24px;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.expense-table th {
+  background-color: #131769;
+  color: white;
+}
+
+.expense-table td {
+  text-align: center;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-expense-btn{
+  background-color: #131769;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.generate-report-btn {
+  background-color: #ae1616;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.add-expense-btn:hover, .generate-report-btn:hover {
+  background-color: #4c4f97;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense-list-container {
+  padding: 30px; /* Add some padding around the container */
+}
+
+.expense-list-title {
+  margin: 0; /* Remove default margin */
+}
+
+.expense-list-title h1 {
+  font-size: 5rem; /* Adjust size for main title */
+  color: #333; /* Optional: change color */
+  text-align: center; /* Optional: center align */
+}
+
+.expense-list-title h3 {
+  font-size: 1.75rem; /* Adjust size for sub-title */
+  color: #555; /* Optional: change color */
+  text-align: center; /* Optional: center align */
+}
+
+
+h1 {
+  font-size: 3.5rem; /* Adjust font size */
+  margin: 0.5rem 0; /* Adjust margins */
+}
+
+h3 {
+  font-size: 1.75rem; /* Adjust font size */
+  margin: 0.5rem 0; /* Adjust margins */
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: -10px;
+}
+
+.search-icon {
+  font-size: 24px;
+}
+
+/* expenses.css */
+
+/* Existing styles... */
+
+.actions {
+  display: flex;
+  gap: 10px; /* Optional: add space between buttons */
+}
+
+.edit-btn {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.delete-btn {
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+.text-red {
+  color: rgb(188, 29, 29);
+}
+

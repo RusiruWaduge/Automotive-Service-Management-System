@@ -1,0 +1,88 @@
+/* Styles for the vertical navbar */
+.nav-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80px; /* Collapsed width */
+  height: 100vh;
+  background-color: #8c8989;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease; /* Smooth transition for expanding */
+}
+
+.nav-vertical.expanded {
+  width: 250px; /* Expanded width */
+}
+
+.nav-header {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.nav-logo {
+  margin-top: 60px;
+  width: 150px;
+  height: auto;
+  margin-left: 17px;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  color: #333333;
+  margin: 30px 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 40px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #063363;
+  text-decoration: none;
+  margin: 15px 0;
+  padding-left: 10px;
+  text-align: left;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #133458;
+  background-color:rgb(165, 165, 165);
+  padding: 8px;
+  border-radius: 10px;
+  
+}
+
+.nav-vertical.expanded .nav-link {
+  opacity: 1;
+}
+
+.nav-vertical:not(.expanded) .nav-link {
+  opacity: 0; /* Hide links when collapsed */
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #e8dede;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
